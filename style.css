@@ -1,0 +1,206 @@
+/*----------------------------- ID ------------------------------*/
+
+/* * {outline: 2px solid red;} */
+body {margin: 0;}
+ul {margin: 0; padding: 0;}
+li {list-style-type: none;}
+a {text-decoration: none; color: black;}
+h2 {margin: 0;}
+p {margin: 0;}
+
+/* HEADER */
+
+header {
+    outline: 2px solid red;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-inline: 130px;
+    padding-block: 10px;
+}
+#header-heading {
+    outline: 2px solid red;
+
+    margin: 0px;
+}
+#header-navbar {
+    outline: 2px solid red;
+
+    display: flex;
+    align-items: center;
+}
+#header-navbar-list {
+    outline: 2px solid red;
+
+    display: flex;
+}
+#header-navbar-list-item1 {}
+#header-navbar-list-item2 {}
+#header-navbar-list-item3 {}
+
+/* MAIN */
+
+main {}
+#main-article {}
+
+#main-article-section1 {
+    outline: 2px solid red;
+
+    height: 250px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-inline: 220px;
+    padding-block: 100px;
+}
+#main-article-section1-container1 {
+    outline: 2px solid red;
+}
+#main-article-section1-container1-heading {
+    outline: 2px solid red;
+
+    margin: 0;
+}
+#main-article-section1-container1-paragraph {
+    outline: 2px solid red;
+
+    margin: 0;
+}
+#main-article-section1-container1-button {
+    outline: 2px solid red;
+}
+#main-article-section1-image {
+    outline: 2px solid red;
+
+    width: 430px;
+    height: 190px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-article-section2 {
+    outline: 2px solid red;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-block: 40px;
+    padding-block-end: 80px;
+}
+#main-article-section2-heading {
+    margin: 0;
+    margin-bottom: 40px;
+}
+#main-article-section2-container1 {
+    outline: 2px solid red;
+
+    width: 700px;
+
+    display: flex;
+    justify-content: space-between;
+}
+#main-article-section2-container1-content1 {}
+#main-article-section2-container1-content1-image {}
+#main-article-section2-container1-content1-para {}
+#main-article-section2-container1-content2 {}
+#main-article-section2-container1-content2-image {}
+#main-article-section2-container1-content2-para {}
+#main-article-section2-container1-content3 {}
+#main-article-section2-container1-content3-image {}
+#main-article-section2-container1-content3-para {}
+#main-article-section2-container1-content4 {}
+#main-article-section2-container1-content4-image {}
+#main-article-section2-container1-content4-para {}
+
+#main-article-section3 {
+    outline: 2px solid red;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-block: 100px;
+    padding-inline: 300px;
+}
+#main-article-section3-container1 {
+    outline: 2px solid red;
+}
+#main-article-section3-container1-quote {}
+#main-article-section3-container1-quoteAuthor {
+    outline: 2px solid red;
+
+    text-align: end;
+}
+
+#main-article-section4 {
+    outline: 2px solid red;
+
+    height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main-article-section4-container {
+    outline: 2px solid red;
+
+    width: 950px;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-article-section4-container-text {
+    outline: 2px solid red;
+
+    margin-right: 290px;
+}
+#main-article-section4-container-text-heading {}
+#main-article-section4-container-text-para {}
+#main-article-section4-container-button {
+    padding-inline: 20px;
+    padding-block: 4px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer-text {}
+
+/*--------------------------- CLASS ----------------------------*/
+
+/* HEADER */
+
+.header-navbar-list-item {
+    outline: 2px solid red;
+
+    margin-inline: 15px;
+}
+
+/* MAIN */
+.main-article-section2-content {
+    outline: 2px red solid;
+    width: 130px;
+}
+.main-article-section2-content-image {
+    outline: 2px red solid;
+
+    width: 130px;
+    height: 130px;
+}
+.main-article-section2-content-para {
+    margin: 0px;
+}
